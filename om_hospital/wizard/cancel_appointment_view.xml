@@ -12,12 +12,15 @@
                         <field name="reason"/>
                     </group>
                     <group>
-                          <field name="date_cancel"/>
+                        <field name="date_cancel"/>
                     </group>
                 </group>
-                 <footer>
-                    <button string="Cancel Appointment" name="action_cancel" type ="object" class="btn-primary" data-hotkey="q"/>
+                <footer>
+                    <button string="Cancel Appointment" name="action_cancel" type="object" class="btn-primary"
+                            data-hotkey="q"/>
                     <button special="cancel" string="Discard" class="btn-secondary" type="object" data-hotkey="z"/>
+                    <button special="cancel" string="Discard" class="btn-secondary" type="object" data-hotkey="z"/>
+
                 </footer>
             </form>
         </field>
